@@ -44,12 +44,18 @@ const ProductCard: React.FC<ProductCardProps> = ({
           )}
         </div>
         <div className="card__product-details">
-          <div className="card__add-icon">
-            <AddToCartIcon />
-          </div>
           <span className="card__product-description">{description}</span>
-          <span className="card__product-brand">Tommy Hilfiger</span>
-          <span className="card__product-price">{formattedPrice}</span>
+
+          <div className="card__product-grid">
+            <div className="card__product-grid--left">
+              <span className="card__product-brand">Tommy Hilfiger</span>
+              <span className="card__product-price">{formattedPrice}</span>
+            </div>
+
+            <div className="card__add-icon">
+              <AddToCartIcon />
+            </div>
+          </div>
         </div>
       </div>
     </div>

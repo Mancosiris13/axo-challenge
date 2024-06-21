@@ -3,27 +3,13 @@
 :root {
   --font-sans: "Source Sans Pro", sans-serif;
   --font-fira: "Fira Sans", sans-serif;
-
   --color-gold-dark: #272622;
   --color-blue: #252b42;
   --color-grey-light: #737373;
   --color-white: #ffffff;
   --color-dark: #2e2e2e;
-  --color-dark-light:      
+  --color-dark-light:         
 ;
-
-  $bp-1400px: 87.5em; // 1400px / 16 browsers default =87.5em
-  $bp-1300px: 81.25em; // 1300px / 16 browsers default =81.25em
-  $bp-1200px: 75em; // 1200px / 16 browsers default =75em
-  $bp-1100px: 68.75em; // 1100px / 16 browsers default =68.75em
-  $bp-1000px: 62.5em; // 1000px / 16 browsers default =62.5em
-  $bp-900px: 56.25em; //900px / 16 browsers default = 56.25em
-  $bp-800px: 50em; //800px / 16 browsers default = 50em
-
-  $bp-700px: 43.75em; //700px / 16 browsers default = 43.75em
-  $bp-600px: 37.5em; //600px / 16 browsers default = 37.5em
-  $bp-500px: 31.25em; //500px / 16 browsers default = 31.25em
-  $bp-400px: 25em; //400px / 16 browsers default = 25em
 }
 
 *,
@@ -47,6 +33,5 @@ body {
   size: 1.4rem;
   padding: 0;
   margin: 0 auto;
-  //   max-width: 144rem;
   border-color: red;
 }
