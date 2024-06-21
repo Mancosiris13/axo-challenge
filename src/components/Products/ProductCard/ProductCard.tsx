@@ -1,32 +1,24 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./ProductCard.scss";
 import AddToCartIcon from "../../../icons/AddToCartIcon/AddToCartIcon";
+const images = Object.values(
+  import.meta.glob("../../../images/products/*", { eager: true, as: "url" })
+);
 
 export type ProductCardProps = {
   name: string;
+  imgId: number;
   description: string;
   price: number;
 };
 
 const ProductCard: React.FC<ProductCardProps> = ({
   name,
+  imgId,
   description,
   price,
 }) => {
-  const [imageSrc, setImageSrc] = useState<string>("");
-
-  useEffect(() => {
-    import(`../../../images/products/${name}.webp`)
-      .then((image) => {
-        setImageSrc(image.default);
-      })
-      .catch((err) => {
-        console.error(`Error loading image: ${name}`, err);
-        setImageSrc("");
-      });
-  }, [name]);
-
   const formattedPrice = price.toLocaleString("es-MX", {
     style: "currency",
     currency: "MXN",
@@ -37,11 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <div className="card__container">
       <div className="card__content">
         <div className="card__img-container">
-          {imageSrc ? (
-            <img src={imageSrc} alt={name} className="card__img" />
-          ) : (
-            <div className="card__img-placeholder">Image not available</div>
-          )}
+          <img src={images[imgId]} alt={name} className="card__img" />
         </div>
         <div className="card__product-details">
           <span className="card__product-description">{description}</span>

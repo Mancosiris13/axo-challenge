@@ -86,6 +86,7 @@ const Products: React.FC<ProductsProps> = () => {
             name={product.name}
             description={product.description}
             price={product.price}
+            imgId={product.id}
           />
         ))}
       </div>
