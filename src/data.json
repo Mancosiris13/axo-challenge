@@ -58,5 +58,35 @@
     "name": "Playera 1985 de corte slim de mujer",
     "description": "Playera 1985 de corte slim de mujer",
     "price": 399.5
+  },
+  {
+    "name": "Top de denim estilo bandeau",
+    "description": "Top de denim estilo bandeau de corte skinny de mujer Tommy Jean",
+    "price": 951.44
+  },
+  {
+    "name": "Polo de corte regular con monograma TH",
+    "description": "Polo de corte regular con monograma TH de hombre Tommy Hilfiger",
+    "price": 1119.44
+  },
+  {
+    "name": "Jeans houston strech slim taper",
+    "description": "Jeans houston strech slim taper con acabado deslavado de hombre",
+    "price": 1623.44
+  },
+  {
+    "name": "Rompevientos Chicago",
+    "description": "Rompevientos Chicago con diseño color block de hombre Tommy Jeans",
+    "price": 4159.36
+  },
+  {
+    "name": "Tenis de running de piel TH Monogram",
+    "description": "Tenis de running de piel TH Monogram de hombre Tommy Hilfiger",
+    "price": 1735.44
+  },
+  {
+    "name": "Sobrecamisa de corte amplio con rayas",
+    "description": "Sobrecamisa de corte amplio con rayas de hombre Tommy Jeans",
+    "price": 2239.36
   }
 ]
