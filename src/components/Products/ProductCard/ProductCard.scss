@@ -21,9 +21,17 @@
   }
 
   &__img-container {
-    width: 100%;
+    width: 40rem;
+    height: 53.4rem;
+    margin-bottom: 1rem;
     overflow: hidden;
     position: relative;
+
+    @media only screen and (max-width: 40rem) {
+      width: 100%;
+      height: fit-content;
+      margin-bottom: 0;
+    }
   }
 
   &__img {
