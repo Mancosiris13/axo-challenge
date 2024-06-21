@@ -15,7 +15,7 @@ Instala las dependencias:
 Ejecuta el proyecto en modo desarrollo:
 
 ### yarn dev
-Abre tu navegador y ve a http://localhost:3000 para ver el proyecto en acción.
+Abre tu navegador y ve a http://localhost:5173 para ver el proyecto en acción.
 
 
 ## Uso
