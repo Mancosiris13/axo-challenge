@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Test de conocimientos Grupo Azo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de React que muestra una lista de productos de Tommy Hilfiger con funcionalidades de paginación y ordenamiento.
 
-Currently, two official plugins are available:
+## Instalación
+Para instalar y ejecutar este proyecto, sigue los siguientes pasos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clona el repositorio:
+### git clone https://github.com/Mancosiris13/axo-challenge
+cd tu-repositorio
 
-## Expanding the ESLint configuration
+Instala las dependencias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### yarn install
+Ejecuta el proyecto en modo desarrollo:
 
-- Configure the top-level `parserOptions` property like this:
+### yarn dev
+Abre tu navegador y ve a http://localhost:3000 para ver el proyecto en acción.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Uso
+El proyecto permite ver una lista de productos de Tommy Hilfiger con las siguientes funcionalidades:
+
+Ordenamiento de productos por nombre y precio.
+Paginación para mostrar 6 productos por página.
+
+## Ordenamiento
+Puedes ordenar los productos por:
+
+Precio Alto-Bajo
+Precio Bajo-Alto
+Nombre A-Z
+Nombre Z-A
+
+## Paginación
+Los productos se muestran con una paginación que permite navegar entre las páginas de productos. Cada página muestra un máximo de 6 productos.
