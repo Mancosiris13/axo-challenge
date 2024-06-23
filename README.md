@@ -1,4 +1,4 @@
-# Test de conocimientos Grupo Azo
+# Test de conocimientos Grupo Axo
 
 Este es un proyecto de React que muestra una lista de productos de Tommy Hilfiger con funcionalidades de paginación y ordenamiento.
 
