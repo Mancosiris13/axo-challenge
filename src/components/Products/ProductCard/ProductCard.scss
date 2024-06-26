@@ -1,15 +1,14 @@
 .card {
   &__container {
-    padding: 1rem 1rem 4rem 1rem;
-    border-radius: 2rem;
+    padding: 1rem 1rem 0 1rem;
     width: 44.8rem;
-    height: 73rem;
+    height: 70rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     max-width: fit-content;
-    height: auto;
-
     margin-bottom: 3rem;
+    margin-left: 2rem;
 
-    @media only screen and (max-width: 70rem) {
+    @media only screen and (max-width: 50rem) {
       margin-left: 0;
     }
     @media only screen and (max-width: 40rem) {

@@ -1,8 +1,13 @@
 .poster-card-xl {
   &__container {
     width: 84rem;
-    height: 73rem;
-    padding: 1rem 1rem 4rem 1rem;
+    height: 70rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+
+    @media only screen and (max-width: 50rem) {
+      margin-left: 0;
+    }
   }
 
   &__img {
