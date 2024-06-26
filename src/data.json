@@ -3,108 +3,133 @@
     "id": 0,
     "name": "ChamarraTHWarm",
     "description": "Chamarra TH Warm acolchonada plegable de hombre Tommy Hilfiger",
-    "price": 3191.44
+    "price": 3191.44,
+    "cardType": "product"
   },
   {
     "id": 1,
     "name": "Vestido camisero entallado",
     "description": "Vestido camisero entallado de rayas de mujer Tommy Hilfiger",
-    "price": 1791.44
+    "price": 1791.44,
+    "cardType": "product"
   },
   {
     "id": 2,
     "name": "Pantalon chino slim 1985",
     "description": "Pantalon chino slim 1985 Essential Bleecker de hombre Tommy Hilfiger",
-    "price": 1119.44
+    "price": 1119.44,
+    "cardType": "product"
   },
   {
     "id": 3,
     "name": "Jeans Mercer de corde regular",
     "description": "Jeans Mercer de corde regular rectos TH Flex de hombre Tommy",
-    "price": 1623.44
+    "price": 1623.44,
+    "cardType": "product"
   },
   {
     "id": 4,
     "name": "Vestido tipo polo 1985",
     "description": "Vestido tipo polo 1985 de corte slim de mujer Tommy Hilfiger",
-    "price": 1663.36
+    "price": 1663.36,
+    "cardType": "product"
   },
   {
     "id": 5,
-    "name": "Tenis de baloncesto de piel TH",
-    "description": "Tenis de baloncesto de piel TH Monogram de hombre Tommy Hilfiger",
-    "price": 1903.44
+    "name": "poster1",
+    "description": "poster1",
+    "price": 0,
+    "cardType": "poster"
   },
   {
     "id": 6,
     "name": "Sueter de corte regular con cuello",
     "description": "Sueter de corte regular con cuello redondo de mujer Tommy Hilfiger",
-    "price": 1903.44
+    "price": 1903.44,
+    "cardType": "product"
   },
   {
     "id": 7,
     "name": "Polo 1985 de corte regular de hombre",
     "description": "Polo 1985 de corte regular de hombre Tommy Hilfiger",
-    "price": 839.44
+    "price": 839.44,
+    "cardType": "product"
   },
   {
     "id": 8,
     "name": "Tenis Essential Elevated",
     "description": "Tenis Essential Elevated de ante de mujer Tomy Hilfiger",
-    "price": 1567.44
+    "price": 1567.44,
+    "cardType": "product"
   },
   {
     "id": 9,
     "name": "Tenis medias de plataforma",
     "description": "Tenis medias de plataforma de piel de mujer Tommy Jeans",
-    "price": 1679.44
-  },
-  {
-    "id": 10,
-    "name": "Sueter a rayas con cuello redondo de hombre",
-    "description": "Sueter a rayas con cuello redondo de hombre Tommy Hilfiger",
-    "price": 1847.44
-  },
-  {
-    "id": 11,
-    "name": "Playera 1985 de corte slim de mujer",
-    "description": "Playera 1985 de corte slim de mujer",
-    "price": 399.5
+    "price": 1679.44,
+    "cardType": "product"
   },
   {
     "id": 12,
-    "name": "Top de denim estilo bandeau",
-    "description": "Top de denim estilo bandeau de corte skinny de mujer Tommy Jean",
-    "price": 951.44
+    "name": "Sueter a rayas con cuello redondo de hombre",
+    "description": "Sueter a rayas con cuello redondo de hombre Tommy Hilfiger",
+    "price": 1847.44,
+    "cardType": "product"
   },
   {
     "id": 13,
-    "name": "Polo de corte regular con monograma TH",
-    "description": "Polo de corte regular con monograma TH de hombre Tommy Hilfiger",
-    "price": 1119.44
+    "name": "Playera 1985 de corte slim de mujer",
+    "description": "Playera 1985 de corte slim de mujer",
+    "price": 399.5,
+    "cardType": "product"
   },
   {
     "id": 14,
-    "name": "Jeans houston strech slim taper",
-    "description": "Jeans houston strech slim taper con acabado deslavado de hombre",
-    "price": 1623.44
+    "name": "Top de denim estilo bandeau",
+    "description": "Top de denim estilo bandeau de corte skinny de mujer Tommy Jean",
+    "price": 951.44,
+    "cardType": "product"
   },
   {
     "id": 15,
-    "name": "Rompevientos Chicago",
-    "description": "Rompevientos Chicago con diseño color block de hombre Tommy Jeans",
-    "price": 4159.36
+    "name": "Polo de corte regular con monograma TH",
+    "description": "Polo de corte regular con monograma TH de hombre Tommy Hilfiger",
+    "price": 1119.44,
+    "cardType": "product"
   },
   {
     "id": 16,
-    "name": "Tenis de running de piel TH Monogram",
-    "description": "Tenis de running de piel TH Monogram de hombre Tommy Hilfiger",
-    "price": 1735.44
+    "name": "posterXL",
+    "description": "posterXL",
+    "price": 0,
+    "cardType": "posterXL"
   },
   {
     "id": 17,
+    "name": "Jeans houston strech slim taper",
+    "description": "Jeans houston strech slim taper con acabado deslavado de hombre",
+    "price": 1623.44,
+    "cardType": "product"
+  },
+  {
+    "id": 18,
+    "name": "Rompevientos Chicago",
+    "description": "Rompevientos Chicago con diseño color block de hombre Tommy Jeans",
+    "price": 4159.36,
+    "cardType": "product"
+  },
+  {
+    "id": 19,
+    "name": "Tenis de running de piel TH Monogram",
+    "description": "Tenis de running de piel TH Monogram de hombre Tommy Hilfiger",
+    "price": 1735.44,
+    "cardType": "product"
+  },
+  {
+    "id": 20,
     "name": "Sobrecamisa de corte amplio con rayas",
     "description": "Sobrecamisa de corte amplio con rayas de hombre Tommy Jeans",
-    "price": 2239.36
+    "price": 2239.36,
+    "cardType": "product"
   }
 ]
