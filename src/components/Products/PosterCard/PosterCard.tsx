@@ -5,9 +5,10 @@ import "./PosterCard.scss";
 export type PosterCardProps = {
   name: string;
   imgId: number;
+  cardType: string;
 };
 
-const PosterCard: React.FC<PosterCardProps> = ({ name, imgId }) => {
+const PosterCard: React.FC<PosterCardProps> = ({ name, imgId, cardType }) => {
   const [imageSrc, setImageSrc] = useState<string>("");
 
   useEffect(() => {
@@ -21,14 +22,13 @@ const PosterCard: React.FC<PosterCardProps> = ({ name, imgId }) => {
       });
   }, [imgId]);
 
+  const cardStyle = {
+    width: cardType === "poster" ? "42rem" : "84rem",
+  };
+
   return (
-    <div className="poster-card__container">
-      <img
-        src={imageSrc}
-        alt={name}
-        className="poster-card__img
-          "
-      />
+    <div className="poster-card__container" style={cardStyle}>
+      <img src={imageSrc} alt={name} className="poster-card__img" />
     </div>
   );
 };
