@@ -27,9 +27,11 @@ const PosterCard: React.FC<PosterCardProps> = ({ name, imgId, cardType }) => {
   };
 
   return (
-    <div className="poster-card__container" style={cardStyle}>
-      <img src={imageSrc} alt={name} className="poster-card__img" />
-    </div>
+    <>
+      <div className="poster-card__container" style={cardStyle}>
+        <img src={imageSrc} alt={name} className="poster-card__img" />
+      </div>
+    </>
   );
 };
 
