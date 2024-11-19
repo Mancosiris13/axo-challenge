@@ -1,11 +1,11 @@
 import Footer from './components/Footer/Footer';
-// import NavBar from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import Products from './components/Products/Products';
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <Products />
       <Footer />
     </>
