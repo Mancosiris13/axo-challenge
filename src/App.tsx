@@ -1,4 +1,4 @@
-// import Footer from "./components/Footer/Footer";
+import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import Products from './components/Products/Products';
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <NavBar />
       <Products />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
